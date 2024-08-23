@@ -1,0 +1,26 @@
+.parent div {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.grp2 {
+  border: 2px dotted blue;
+  background-color: aqua;
+  list-style-type: square;
+}
+
+.grpimg {
+  border: 2px solid red;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.grpimg h1 {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}/*# sourceMappingURL=style1.css.map */

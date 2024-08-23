@@ -1,0 +1,121 @@
+body{
+    background-image:url('/images/OIP.jpg');
+    background-size: cover;
+ }
+ /* id */
+ #image_1{
+    width: 50%;
+    height: auto;
+ } 
+ #para1{
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: bisque;
+ }
+ #para2{
+    background-color: aqua;
+    color:brown
+
+
+ }
+ #para3{
+    font-weight: bolder;
+
+    
+ }
+ .grp1{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px dashed red;
+ }
+ .grp1 h1{
+    position: absolute;
+ }
+.grp2{
+    border:2px dotted blue;
+    background-color: aqua;
+    list-style-type: square;
+
+}
+.grpimg{
+    border: 2px solid red;
+    position: relative;
+    top: 30px;
+    left:20px;
+}
+.grpimg h1{
+
+    position: absolute;
+    top: 20px;
+    left:0px;
+    
+}
+table{
+    border: 2px solid brown;
+    border-collapse: collapse;
+    margin: 5% 30% 5% 40%;
+}
+table tr {
+    border-bottom: 2px solid red;
+    border-collapse: collapse;
+    
+}
+table th {
+    border-right: 2px solid blue;
+    border-collapse: collapse;
+}
+table td {
+    border-right: 2px solid blue;
+    border-collapse: collapse;
+    padding: 7px 10px 7px 10px;
+}
+/*  */
+
+.parent{
+    border:2px solid black;
+    display: flex;
+    /* width: 30%; */
+    flex-direction:row;
+    flex-wrap:wrap;
+     justify-content:space-evenly; 
+    /* align-items:center; */
+    align-content:space-around;
+
+}
+.child{
+    border: 2px solid blue;
+
+
+}
+header{
+    background-color: antiquewhite;
+    height: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content:flex-end;
+    column-gap:20px ;
+    padding-top:15px;
+}
+@media screen  and (max-width:460px){
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav a{
+        color: white;
+    }
+    header{
+        background-color: brown;
+        height:auto
+    }
+    
+}
+@media screen  and (min-width:780px){
+    
+    header{
+        background-color: burlywood;
+    }
+    
+}
+    
