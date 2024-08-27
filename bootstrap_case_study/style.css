@@ -1,0 +1,36 @@
+body{
+    background-image: url('images/bgimg.jpg');
+    background-size: cover;
+}
+
+.nav-item{
+    border: 1px solid white;
+    margin-right: 2px;
+   
+}
+a:hover{
+    background-color: white;
+    color: black !important;
+
+}
+.box{
+    margin-top: 9%;
+}
+.login{
+
+    padding:15px;
+}
+.login button{
+    width:100%
+}
+
+
+
+/* .hero-content {
+    max-width: 50%;
+    color:black;
+    margin-top: 8%;
+    margin-left: 3%;
+    width:50%;
+   
+} */
